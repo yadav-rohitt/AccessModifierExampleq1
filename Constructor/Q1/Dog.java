@@ -1,8 +1,6 @@
-class Dog extends Animal  {
-	
-	public void makeSound() {
-		System.out.println("The dog barks..");
-		
-	}
-
+ class Dog extends Animal {
+    @Override
+    public void makeSound() {
+        System.out.println("The dog barks.");
+    }
 }
