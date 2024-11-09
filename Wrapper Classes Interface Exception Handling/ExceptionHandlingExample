@@ -1,0 +1,21 @@
+public class ExceptionHandlingExample {
+
+    // Method to divide two integers with exception handling
+    public int divide(int num1, int num2) {
+        if (num2 == 0) {
+            throw new ArithmeticException("Cannot divide by zero.");
+        }
+        return num1 / num2;
+    }
+
+    public static void main(String[] args) {
+        ExceptionHandlingExample example = new ExceptionHandlingExample();
+
+        try {
+            System.out.println("Result: " + example.divide(10, 2));
+            System.out.println("Result: " + example.divide(10, 0)); // This will throw an exception
+        } catch (ArithmeticException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+    }
+}
