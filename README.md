@@ -1,1 +1,0 @@
-# AccessModifierExampleq1
