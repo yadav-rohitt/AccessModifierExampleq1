@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class L2_ContactDirectory {
+public class contactDirectory {
     public static void main(String[] args) {
         HashMap<String, ArrayList<String>> contactDirectory = new HashMap<>();
         addContact(contactDirectory, "Alice", "12345");

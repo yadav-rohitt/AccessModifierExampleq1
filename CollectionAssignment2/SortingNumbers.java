@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class L1_SortingNumbers {
+public class SortingNumbers {
     public static void main(String[] args) {
         // Step 1: Create an ArrayList<Integer> called numbers
         ArrayList<Integer> numbers = new ArrayList<>();
